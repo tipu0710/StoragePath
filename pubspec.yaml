@@ -1,0 +1,17 @@
+name: storage_path
+description: A flutter plugin to get image, audio, video and files path.
+version: 0.2.1
+homepage: https://github.com/follow2vivek/StoragePath
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.follow2vivek.storagepath
+    pluginClass: StoragePathPlugin
